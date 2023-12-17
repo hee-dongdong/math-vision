@@ -1,0 +1,385 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void ARCameraCapture_Start_m6BCC3EABC9AF9DB370D5F20756D8EDE6B1733B28 (void);
+extern void ARCameraCapture_CaptureRoutine_m3DF3B6B754A3E00488EF5054B9CC722AEF59A2C3 (void);
+extern void ARCameraCapture_CaptureAndSendImage_m6970FEA92A4FBC2E1C3AFC7F66EC16A717B64E53 (void);
+extern void ARCameraCapture_RotateTexture90_m1C274A3C81BFEFFA349F703A8C89F1936EA13B9F (void);
+extern void ARCameraCapture_RotateTextureClockwise90_m185CFD6DC1421593D12B1EA46B84D804ED2FFEBE (void);
+extern void ARCameraCapture_RotateTexture180_m1C4C9100112B9CEBF8D337AD4DB5AB1B904F2D2D (void);
+extern void ARCameraCapture_RotateTexture270_m5D7E48BFEFA2F413E1C8A2F6389E5EDC30DA173D (void);
+extern void ARCameraCapture_ConvertToTexture2D_m1B32186E77DF63A333F6ECF0F662DA6AF7DAEDD0 (void);
+extern void ARCameraCapture__ctor_m74753354BD8A3FBA45784B456E4757901A6573D5 (void);
+extern void ARCameraCapture_U3CCaptureAndSendImageU3Eb__7_0_mCBF0B91C60E8CC97991F046B428A4ABD558454DC (void);
+extern void ARCameraCapture_U3CCaptureAndSendImageU3Eb__7_1_m3FF06BE03CF6F717AF5E65895D558F2B5FCF69BE (void);
+extern void U3CCaptureRoutineU3Ed__6__ctor_m290094547BE04F7027131F84DF61F937A63C6C6A (void);
+extern void U3CCaptureRoutineU3Ed__6_System_IDisposable_Dispose_mF00F727E089F9EA4524629D8FC5DAB4FB9068D25 (void);
+extern void U3CCaptureRoutineU3Ed__6_MoveNext_m2D903EA8FCB2FAC002AAD6D6FA0DEBAF1F006D31 (void);
+extern void U3CCaptureRoutineU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2984F38392FDE188CC410546ECB5D6A3D94F7734 (void);
+extern void U3CCaptureRoutineU3Ed__6_System_Collections_IEnumerator_Reset_mABE0F4F0541C32AD32846EB850597AE548AF5250 (void);
+extern void U3CCaptureRoutineU3Ed__6_System_Collections_IEnumerator_get_Current_m8C20A5E4CFA1E6D3364DEB531612D0E9D2A558FE (void);
+extern void GPTmanager_Start_mADAEC9EB6B93BCC78D7846793B451EDEE6F6D1E9 (void);
+extern void GPTmanager_Update_mC625C6E4B256265725AD47E3620CF5842CCE7041 (void);
+extern void GPTmanager_EncodeTextureToBase64_mD517E04F31CD70F94895C3878211AB62D14A3BBE (void);
+extern void GPTmanager_SendImageToGPT4_m655BD75410EAA96B00C6061CF10B00CFFFEFFCE2 (void);
+extern void GPTmanager__ctor_m9C412E50CD910493830DDDBB4ECA63F7FF2E938E (void);
+extern void U3CSendImageToGPT4U3Ed__3__ctor_m3CB7C90B173B367600724E3AE4706C0903BD342B (void);
+extern void U3CSendImageToGPT4U3Ed__3_System_IDisposable_Dispose_m0CA25EC0C81C62A6DBCABC15E5DE60B3CBE8DAE3 (void);
+extern void U3CSendImageToGPT4U3Ed__3_MoveNext_m0846BBD6076E6E4DC3E4D781C80514250597334F (void);
+extern void U3CSendImageToGPT4U3Ed__3_U3CU3Em__Finally1_mD2AE229DB2B364EC78FEB210B0FD761E9890CBE2 (void);
+extern void U3CSendImageToGPT4U3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBDC51973D63471ED388A8777B6B65473E068DA03 (void);
+extern void U3CSendImageToGPT4U3Ed__3_System_Collections_IEnumerator_Reset_m9B620D8E55FEB93C24A22527388039D0B942CA8C (void);
+extern void U3CSendImageToGPT4U3Ed__3_System_Collections_IEnumerator_get_Current_m4978D2AA08811AFAF57670719CE01945F18161CE (void);
+extern void WolframAlphaManager_GetWolframAlphaResult_mAA121DDB211B7D286AE3E397B51067D07FCC5F2D (void);
+extern void WolframAlphaManager_DecodeGif_m43EE941B40E4CC1CB6E597E56F5BBB5902D28149 (void);
+extern void WolframAlphaManager__ctor_m17CC6DE41D623919A20AAB130F692A2E28A2A67A (void);
+extern void U3CGetWolframAlphaResultU3Ed__1__ctor_m2B9ADEB2193F4D166E5EA0CCE02B214D5290BAF1 (void);
+extern void U3CGetWolframAlphaResultU3Ed__1_System_IDisposable_Dispose_m6AE0C2CBCB6BF66A9CF114D21260FDC04C2A07BB (void);
+extern void U3CGetWolframAlphaResultU3Ed__1_MoveNext_m9DAEA75AECC6363AA968A41393CBD5452AD6A22B (void);
+extern void U3CGetWolframAlphaResultU3Ed__1_U3CU3Em__Finally1_m07C5886BF0DD10E61C7FA863A71F2F8129B987BC (void);
+extern void U3CGetWolframAlphaResultU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC47E1A2563D86A86FDAAC9868FD3856B28F59014 (void);
+extern void U3CGetWolframAlphaResultU3Ed__1_System_Collections_IEnumerator_Reset_m2800BF1FA6A210100D5963A82F951F11EA0235F6 (void);
+extern void U3CGetWolframAlphaResultU3Ed__1_System_Collections_IEnumerator_get_Current_m21568FC60A9274B128D066A3446935A67D87F807 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[71] = 
+{
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ARCameraCapture_Start_m6BCC3EABC9AF9DB370D5F20756D8EDE6B1733B28,
+	ARCameraCapture_CaptureRoutine_m3DF3B6B754A3E00488EF5054B9CC722AEF59A2C3,
+	ARCameraCapture_CaptureAndSendImage_m6970FEA92A4FBC2E1C3AFC7F66EC16A717B64E53,
+	ARCameraCapture_RotateTexture90_m1C274A3C81BFEFFA349F703A8C89F1936EA13B9F,
+	ARCameraCapture_RotateTextureClockwise90_m185CFD6DC1421593D12B1EA46B84D804ED2FFEBE,
+	ARCameraCapture_RotateTexture180_m1C4C9100112B9CEBF8D337AD4DB5AB1B904F2D2D,
+	ARCameraCapture_RotateTexture270_m5D7E48BFEFA2F413E1C8A2F6389E5EDC30DA173D,
+	ARCameraCapture_ConvertToTexture2D_m1B32186E77DF63A333F6ECF0F662DA6AF7DAEDD0,
+	ARCameraCapture__ctor_m74753354BD8A3FBA45784B456E4757901A6573D5,
+	ARCameraCapture_U3CCaptureAndSendImageU3Eb__7_0_mCBF0B91C60E8CC97991F046B428A4ABD558454DC,
+	ARCameraCapture_U3CCaptureAndSendImageU3Eb__7_1_m3FF06BE03CF6F717AF5E65895D558F2B5FCF69BE,
+	U3CCaptureRoutineU3Ed__6__ctor_m290094547BE04F7027131F84DF61F937A63C6C6A,
+	U3CCaptureRoutineU3Ed__6_System_IDisposable_Dispose_mF00F727E089F9EA4524629D8FC5DAB4FB9068D25,
+	U3CCaptureRoutineU3Ed__6_MoveNext_m2D903EA8FCB2FAC002AAD6D6FA0DEBAF1F006D31,
+	U3CCaptureRoutineU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2984F38392FDE188CC410546ECB5D6A3D94F7734,
+	U3CCaptureRoutineU3Ed__6_System_Collections_IEnumerator_Reset_mABE0F4F0541C32AD32846EB850597AE548AF5250,
+	U3CCaptureRoutineU3Ed__6_System_Collections_IEnumerator_get_Current_m8C20A5E4CFA1E6D3364DEB531612D0E9D2A558FE,
+	GPTmanager_Start_mADAEC9EB6B93BCC78D7846793B451EDEE6F6D1E9,
+	GPTmanager_Update_mC625C6E4B256265725AD47E3620CF5842CCE7041,
+	GPTmanager_EncodeTextureToBase64_mD517E04F31CD70F94895C3878211AB62D14A3BBE,
+	GPTmanager_SendImageToGPT4_m655BD75410EAA96B00C6061CF10B00CFFFEFFCE2,
+	GPTmanager__ctor_m9C412E50CD910493830DDDBB4ECA63F7FF2E938E,
+	U3CSendImageToGPT4U3Ed__3__ctor_m3CB7C90B173B367600724E3AE4706C0903BD342B,
+	U3CSendImageToGPT4U3Ed__3_System_IDisposable_Dispose_m0CA25EC0C81C62A6DBCABC15E5DE60B3CBE8DAE3,
+	U3CSendImageToGPT4U3Ed__3_MoveNext_m0846BBD6076E6E4DC3E4D781C80514250597334F,
+	U3CSendImageToGPT4U3Ed__3_U3CU3Em__Finally1_mD2AE229DB2B364EC78FEB210B0FD761E9890CBE2,
+	U3CSendImageToGPT4U3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBDC51973D63471ED388A8777B6B65473E068DA03,
+	U3CSendImageToGPT4U3Ed__3_System_Collections_IEnumerator_Reset_m9B620D8E55FEB93C24A22527388039D0B942CA8C,
+	U3CSendImageToGPT4U3Ed__3_System_Collections_IEnumerator_get_Current_m4978D2AA08811AFAF57670719CE01945F18161CE,
+	WolframAlphaManager_GetWolframAlphaResult_mAA121DDB211B7D286AE3E397B51067D07FCC5F2D,
+	WolframAlphaManager_DecodeGif_m43EE941B40E4CC1CB6E597E56F5BBB5902D28149,
+	WolframAlphaManager__ctor_m17CC6DE41D623919A20AAB130F692A2E28A2A67A,
+	U3CGetWolframAlphaResultU3Ed__1__ctor_m2B9ADEB2193F4D166E5EA0CCE02B214D5290BAF1,
+	U3CGetWolframAlphaResultU3Ed__1_System_IDisposable_Dispose_m6AE0C2CBCB6BF66A9CF114D21260FDC04C2A07BB,
+	U3CGetWolframAlphaResultU3Ed__1_MoveNext_m9DAEA75AECC6363AA968A41393CBD5452AD6A22B,
+	U3CGetWolframAlphaResultU3Ed__1_U3CU3Em__Finally1_m07C5886BF0DD10E61C7FA863A71F2F8129B987BC,
+	U3CGetWolframAlphaResultU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC47E1A2563D86A86FDAAC9868FD3856B28F59014,
+	U3CGetWolframAlphaResultU3Ed__1_System_Collections_IEnumerator_Reset_m2800BF1FA6A210100D5963A82F951F11EA0235F6,
+	U3CGetWolframAlphaResultU3Ed__1_System_Collections_IEnumerator_get_Current_m21568FC60A9274B128D066A3446935A67D87F807,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[71] = 
+{
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	7687,
+	7567,
+	7687,
+	5345,
+	5345,
+	5345,
+	5345,
+	5362,
+	7687,
+	6078,
+	6078,
+	6035,
+	7687,
+	7439,
+	7567,
+	7687,
+	7567,
+	7687,
+	7687,
+	5345,
+	2501,
+	7687,
+	6035,
+	7687,
+	7439,
+	7687,
+	7567,
+	7687,
+	7567,
+	2501,
+	3711,
+	7687,
+	6035,
+	7687,
+	7439,
+	7687,
+	7567,
+	7687,
+	7567,
+	11787,
+	7687,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[5] = 
+{
+	{ 0x02000002, { 0, 22 } },
+	{ 0x02000003, { 22, 15 } },
+	{ 0x02000004, { 37, 15 } },
+	{ 0x02000005, { 52, 15 } },
+	{ 0x02000006, { 67, 8 } },
+};
+extern const uint32_t g_rgctx_U3CU3Ef__AnonymousType0_3_tD223BACA3C7CAD9F14EA10219847608E5F012E2E;
+extern const uint32_t g_rgctx_U3CmodelU3Ej__TPar_t3B4A9D2F3A85658236333B5F53ACF73ABF85A71C;
+extern const uint32_t g_rgctx_U3CmessagesU3Ej__TPar_t9B8DF0424454DC2069E3C2AD85D7FDE3DD1A04D7;
+extern const uint32_t g_rgctx_U3Cmax_tokensU3Ej__TPar_tDEFDFCFFDBE81F438284E78D973FD5ED299F373B;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m8F0D8273A26BD8D867093B921A0FC20C1A07E135;
+extern const uint32_t g_rgctx_EqualityComparer_1_tCBCAB3A16D785D61F2E95AA48CD488F224513244;
+extern const uint32_t g_rgctx_EqualityComparer_1_tCBCAB3A16D785D61F2E95AA48CD488F224513244;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_mD033CE4B3F9849755817C76E89D7A40F84AED7FF;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m10BC96694B183802CEF3D1F3DD9EC1D4F6DC0A16;
+extern const uint32_t g_rgctx_EqualityComparer_1_t633B22A3B2E93EEACAC193DAFEBA3943E35D43BF;
+extern const uint32_t g_rgctx_EqualityComparer_1_t633B22A3B2E93EEACAC193DAFEBA3943E35D43BF;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_m0F5893221C5948A15FAD1A65538BEC148825B5D4;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m121BA433B3BC1B20BF71BE67065196340E106BA4;
+extern const uint32_t g_rgctx_EqualityComparer_1_t38E77AF09A5FC5C280E47C6DC05A165F5B91F76A;
+extern const uint32_t g_rgctx_EqualityComparer_1_t38E77AF09A5FC5C280E47C6DC05A165F5B91F76A;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_m0ABF2EB6B1420E5160196342C919A9B77073A8A6;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_mF1491030FC4E18CB5742CFE9514791C2B1BEEADD;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_m190D9A2731B5101D42E3411C9BCF8F2CC17A0BE6;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_m719D71677F679B6114576B1689298199AE241D8F;
+extern const Il2CppRGCTXConstrainedData g_rgctx_U3CmodelU3Ej__TPar_t3B4A9D2F3A85658236333B5F53ACF73ABF85A71C_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const Il2CppRGCTXConstrainedData g_rgctx_U3CmessagesU3Ej__TPar_t9B8DF0424454DC2069E3C2AD85D7FDE3DD1A04D7_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const Il2CppRGCTXConstrainedData g_rgctx_U3Cmax_tokensU3Ej__TPar_tDEFDFCFFDBE81F438284E78D973FD5ED299F373B_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const uint32_t g_rgctx_U3CU3Ef__AnonymousType1_2_t0AF5492A3B9A7EECB2053869F83ED0DF6BD504B6;
+extern const uint32_t g_rgctx_U3CroleU3Ej__TPar_t35F81E7DECE99E1729517CA9BF270E5E272A0A00;
+extern const uint32_t g_rgctx_U3CcontentU3Ej__TPar_t31C1640E5C133A2DC818CAEBD2F36735365AB242;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_mF245F07FC3A9C09FD4C31AA5AE389DA7DCC024B8;
+extern const uint32_t g_rgctx_EqualityComparer_1_t7109F9B4DC06A1E7C98A5B0514F853B280FE8B29;
+extern const uint32_t g_rgctx_EqualityComparer_1_t7109F9B4DC06A1E7C98A5B0514F853B280FE8B29;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_m6E8550B0EEA323277EBC85D305C087FED59D27F4;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_mA6C39651AD3351E91444F85AF28959FFAEEA59E7;
+extern const uint32_t g_rgctx_EqualityComparer_1_t411D5B5EB71C7BF93B70E1CDFD8C0ACA0AB951C2;
+extern const uint32_t g_rgctx_EqualityComparer_1_t411D5B5EB71C7BF93B70E1CDFD8C0ACA0AB951C2;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_m8993BE6338D7C5D648CD636057160DCD3313E101;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_m17C2AC1484929CD685886C13CE622FA8F25B672B;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_mB7053604521A7BA8D6533AC6FF59879BAC04A706;
+extern const Il2CppRGCTXConstrainedData g_rgctx_U3CroleU3Ej__TPar_t35F81E7DECE99E1729517CA9BF270E5E272A0A00_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const Il2CppRGCTXConstrainedData g_rgctx_U3CcontentU3Ej__TPar_t31C1640E5C133A2DC818CAEBD2F36735365AB242_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const uint32_t g_rgctx_U3CU3Ef__AnonymousType2_2_t3AFC43AF13229F46B0FA080A43BF16FE66062604;
+extern const uint32_t g_rgctx_U3CtypeU3Ej__TPar_t180A8729840997920BD8A32519757B0431DE819D;
+extern const uint32_t g_rgctx_U3CtextU3Ej__TPar_t402BEF2B74E42BAF38F3F041487546223441C216;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_mF1D1F17F59216BB5098AAC2937CF626DEB9163C4;
+extern const uint32_t g_rgctx_EqualityComparer_1_tC6E30C32DC9270E0542AE77984B7B3E1C0C31318;
+extern const uint32_t g_rgctx_EqualityComparer_1_tC6E30C32DC9270E0542AE77984B7B3E1C0C31318;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_m20B39F41614354FCF4DE9ED0A6AACDB27EBA4987;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m71C1E29D08820AB1DBC828BF583808E5209B21FC;
+extern const uint32_t g_rgctx_EqualityComparer_1_t9497B3420CF7C5BE5C7950C496BF656F95566716;
+extern const uint32_t g_rgctx_EqualityComparer_1_t9497B3420CF7C5BE5C7950C496BF656F95566716;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_mB2C96B5C24A5776364838EB172CE4637B92BB701;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_mFAAFD17EC7D00C56B287737C75CF01B35C735EED;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_mABAEBB4CBA937605F2EFEFFA4F1EE93D4D653C5D;
+extern const Il2CppRGCTXConstrainedData g_rgctx_U3CtypeU3Ej__TPar_t180A8729840997920BD8A32519757B0431DE819D_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const Il2CppRGCTXConstrainedData g_rgctx_U3CtextU3Ej__TPar_t402BEF2B74E42BAF38F3F041487546223441C216_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const uint32_t g_rgctx_U3CU3Ef__AnonymousType3_2_tF8BEBB8F55E42DF90C06C1612FA770BE2FDEA3CC;
+extern const uint32_t g_rgctx_U3CtypeU3Ej__TPar_tEE28F2F181F035F8B8F452B0FBB265165D6B2726;
+extern const uint32_t g_rgctx_U3Cimage_urlU3Ej__TPar_tC0485246B5DF825DD39586EFB81B9D1C7F6ADD79;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_mA137AE2B77CC8F8745A6AB4F4EAFE5A78AE2903A;
+extern const uint32_t g_rgctx_EqualityComparer_1_t56CC316F05A9523C2B313077F72A6DCB8544CA4B;
+extern const uint32_t g_rgctx_EqualityComparer_1_t56CC316F05A9523C2B313077F72A6DCB8544CA4B;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_m7072D754E0AE674F90BD41C31C40D816FF6546E7;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m431B464A7610BA8E236DA98B68C899DBA0A6AD97;
+extern const uint32_t g_rgctx_EqualityComparer_1_tFE31D19FB7CB19BA0AF42C47AD28D66979075D44;
+extern const uint32_t g_rgctx_EqualityComparer_1_tFE31D19FB7CB19BA0AF42C47AD28D66979075D44;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_m6C58C702C51DC86CB2013C2574F135C08CB744AF;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_m90B22FED02C8BEE144F9975518E67E87908E67D4;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_m966CCB998DE0849BB39C7617F6176E5D5F6CB51E;
+extern const Il2CppRGCTXConstrainedData g_rgctx_U3CtypeU3Ej__TPar_tEE28F2F181F035F8B8F452B0FBB265165D6B2726_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const Il2CppRGCTXConstrainedData g_rgctx_U3Cimage_urlU3Ej__TPar_tC0485246B5DF825DD39586EFB81B9D1C7F6ADD79_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const uint32_t g_rgctx_U3CU3Ef__AnonymousType4_1_tF740D434AC487551E54ED1DD4DEBCA0D81E20B82;
+extern const uint32_t g_rgctx_U3CurlU3Ej__TPar_t7AE293826A45F9815BFD10E33D2B4F8D435DDB03;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m4C4D427987F36C9243E568C489D853B7D54517E3;
+extern const uint32_t g_rgctx_EqualityComparer_1_t638E5F6DCF7177D14551D8C9C8A6A87C4F3E795E;
+extern const uint32_t g_rgctx_EqualityComparer_1_t638E5F6DCF7177D14551D8C9C8A6A87C4F3E795E;
+extern const uint32_t g_rgctx_EqualityComparer_1_Equals_m94A685BBDE634FC842B2C6B9B0FE56C36C219074;
+extern const uint32_t g_rgctx_EqualityComparer_1_GetHashCode_m01FACAE0F8ED51E0D5A7EEA70F610AC556D6D365;
+extern const Il2CppRGCTXConstrainedData g_rgctx_U3CurlU3Ej__TPar_t7AE293826A45F9815BFD10E33D2B4F8D435DDB03_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+static const Il2CppRGCTXDefinition s_rgctxValues[75] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ef__AnonymousType0_3_tD223BACA3C7CAD9F14EA10219847608E5F012E2E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CmodelU3Ej__TPar_t3B4A9D2F3A85658236333B5F53ACF73ABF85A71C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CmessagesU3Ej__TPar_t9B8DF0424454DC2069E3C2AD85D7FDE3DD1A04D7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3Cmax_tokensU3Ej__TPar_tDEFDFCFFDBE81F438284E78D973FD5ED299F373B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m8F0D8273A26BD8D867093B921A0FC20C1A07E135 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_tCBCAB3A16D785D61F2E95AA48CD488F224513244 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_tCBCAB3A16D785D61F2E95AA48CD488F224513244 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_mD033CE4B3F9849755817C76E89D7A40F84AED7FF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m10BC96694B183802CEF3D1F3DD9EC1D4F6DC0A16 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t633B22A3B2E93EEACAC193DAFEBA3943E35D43BF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t633B22A3B2E93EEACAC193DAFEBA3943E35D43BF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_m0F5893221C5948A15FAD1A65538BEC148825B5D4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m121BA433B3BC1B20BF71BE67065196340E106BA4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t38E77AF09A5FC5C280E47C6DC05A165F5B91F76A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t38E77AF09A5FC5C280E47C6DC05A165F5B91F76A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_m0ABF2EB6B1420E5160196342C919A9B77073A8A6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_mF1491030FC4E18CB5742CFE9514791C2B1BEEADD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_m190D9A2731B5101D42E3411C9BCF8F2CC17A0BE6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_m719D71677F679B6114576B1689298199AE241D8F },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_U3CmodelU3Ej__TPar_t3B4A9D2F3A85658236333B5F53ACF73ABF85A71C_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_U3CmessagesU3Ej__TPar_t9B8DF0424454DC2069E3C2AD85D7FDE3DD1A04D7_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_U3Cmax_tokensU3Ej__TPar_tDEFDFCFFDBE81F438284E78D973FD5ED299F373B_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ef__AnonymousType1_2_t0AF5492A3B9A7EECB2053869F83ED0DF6BD504B6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CroleU3Ej__TPar_t35F81E7DECE99E1729517CA9BF270E5E272A0A00 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CcontentU3Ej__TPar_t31C1640E5C133A2DC818CAEBD2F36735365AB242 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_mF245F07FC3A9C09FD4C31AA5AE389DA7DCC024B8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t7109F9B4DC06A1E7C98A5B0514F853B280FE8B29 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t7109F9B4DC06A1E7C98A5B0514F853B280FE8B29 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_m6E8550B0EEA323277EBC85D305C087FED59D27F4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_mA6C39651AD3351E91444F85AF28959FFAEEA59E7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t411D5B5EB71C7BF93B70E1CDFD8C0ACA0AB951C2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t411D5B5EB71C7BF93B70E1CDFD8C0ACA0AB951C2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_m8993BE6338D7C5D648CD636057160DCD3313E101 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_m17C2AC1484929CD685886C13CE622FA8F25B672B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_mB7053604521A7BA8D6533AC6FF59879BAC04A706 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_U3CroleU3Ej__TPar_t35F81E7DECE99E1729517CA9BF270E5E272A0A00_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_U3CcontentU3Ej__TPar_t31C1640E5C133A2DC818CAEBD2F36735365AB242_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ef__AnonymousType2_2_t3AFC43AF13229F46B0FA080A43BF16FE66062604 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CtypeU3Ej__TPar_t180A8729840997920BD8A32519757B0431DE819D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CtextU3Ej__TPar_t402BEF2B74E42BAF38F3F041487546223441C216 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_mF1D1F17F59216BB5098AAC2937CF626DEB9163C4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_tC6E30C32DC9270E0542AE77984B7B3E1C0C31318 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_tC6E30C32DC9270E0542AE77984B7B3E1C0C31318 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_m20B39F41614354FCF4DE9ED0A6AACDB27EBA4987 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m71C1E29D08820AB1DBC828BF583808E5209B21FC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t9497B3420CF7C5BE5C7950C496BF656F95566716 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t9497B3420CF7C5BE5C7950C496BF656F95566716 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_mB2C96B5C24A5776364838EB172CE4637B92BB701 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_mFAAFD17EC7D00C56B287737C75CF01B35C735EED },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_mABAEBB4CBA937605F2EFEFFA4F1EE93D4D653C5D },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_U3CtypeU3Ej__TPar_t180A8729840997920BD8A32519757B0431DE819D_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_U3CtextU3Ej__TPar_t402BEF2B74E42BAF38F3F041487546223441C216_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ef__AnonymousType3_2_tF8BEBB8F55E42DF90C06C1612FA770BE2FDEA3CC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CtypeU3Ej__TPar_tEE28F2F181F035F8B8F452B0FBB265165D6B2726 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3Cimage_urlU3Ej__TPar_tC0485246B5DF825DD39586EFB81B9D1C7F6ADD79 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_mA137AE2B77CC8F8745A6AB4F4EAFE5A78AE2903A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t56CC316F05A9523C2B313077F72A6DCB8544CA4B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t56CC316F05A9523C2B313077F72A6DCB8544CA4B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_m7072D754E0AE674F90BD41C31C40D816FF6546E7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m431B464A7610BA8E236DA98B68C899DBA0A6AD97 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_tFE31D19FB7CB19BA0AF42C47AD28D66979075D44 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_tFE31D19FB7CB19BA0AF42C47AD28D66979075D44 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_m6C58C702C51DC86CB2013C2574F135C08CB744AF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_m90B22FED02C8BEE144F9975518E67E87908E67D4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_m966CCB998DE0849BB39C7617F6176E5D5F6CB51E },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_U3CtypeU3Ej__TPar_tEE28F2F181F035F8B8F452B0FBB265165D6B2726_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_U3Cimage_urlU3Ej__TPar_tC0485246B5DF825DD39586EFB81B9D1C7F6ADD79_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ef__AnonymousType4_1_tF740D434AC487551E54ED1DD4DEBCA0D81E20B82 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CurlU3Ej__TPar_t7AE293826A45F9815BFD10E33D2B4F8D435DDB03 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m4C4D427987F36C9243E568C489D853B7D54517E3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t638E5F6DCF7177D14551D8C9C8A6A87C4F3E795E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t638E5F6DCF7177D14551D8C9C8A6A87C4F3E795E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_m94A685BBDE634FC842B2C6B9B0FE56C36C219074 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_GetHashCode_m01FACAE0F8ED51E0D5A7EEA70F610AC556D6D365 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_U3CurlU3Ej__TPar_t7AE293826A45F9815BFD10E33D2B4F8D435DDB03_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	71,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	5,
+	s_rgctxIndices,
+	75,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
